@@ -9,7 +9,7 @@ namespace Entities.Enums
   public enum Status
     {
         Pending=1,
-        Complpleted=2,
+        Completed=2,
         Canceled=3,
 
 

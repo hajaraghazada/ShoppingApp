@@ -10,7 +10,8 @@ namespace Entities.Concrete
 {
     public class Brand:BaseEntity
     {
-        public int SubCategoryId { get; set; }
-        public  string  Name { get; set; }
+        public string Name { get; set; }
+        public List<Product> Products { get; set; }
+       
     }
 }
