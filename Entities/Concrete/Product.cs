@@ -15,6 +15,7 @@ namespace Entities.Concrete
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
         public int BrandId { get; set; }  
+        public int ColorId { get; set; }
         public int SubCategoryId { get; set; }
         public string ImageURL { get; set; }
         public bool IsDiscount {  get; set; }
@@ -23,6 +24,7 @@ namespace Entities.Concrete
         public Delivery DeliveryType { get; set; }
         public List<Review> Reviews { get; set; }  
         public Brand Brand { get; set; }//Lazim olsa IQuaryable ile melumatlari getiririk, lazim deyilse bazada null qalacaq...
+        public Color Color { get; set; }
         public SubCategory SubCategory { get; set; }
 
     }
