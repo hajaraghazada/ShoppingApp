@@ -9,7 +9,7 @@ namespace Entities.Concrete
 {
    public class SubCategory:BaseEntity
     {
-        public int CategoryId { get; set; }
+        public int CategoryID { get; set; }
         public string Name { get; set; }
         public List<Product> Products { get; set; }
 

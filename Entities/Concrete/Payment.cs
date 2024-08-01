@@ -10,7 +10,7 @@ namespace Entities.Concrete
 {
     public class Payment:BaseEntity
     {
-        public int UserId { get; set; }
+        public int UserID { get; set; }
         public int OrderID { get; set; }  
         public PaymentMethod PaymentMethod { get; set; }  // Enum for Credit Card, Cash
         public decimal Amount { get; set; }

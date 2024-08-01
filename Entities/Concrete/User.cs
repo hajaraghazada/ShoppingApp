@@ -18,5 +18,8 @@ namespace Entities.Concrete
         public string Address { get; set; }
         public string Phone { get; set; }
         public Role Role { get; set; } // Enum for Admin, Customer
+
+        public List<Order> Orders { get; set; }
+        
     }
 }
